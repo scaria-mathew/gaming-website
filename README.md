@@ -9,11 +9,7 @@ This project was created using **pure HTML and CSS**, focusing on modern layout 
 
 - Fully responsive homepage  
 - Modern layout using **Flexbox / Grid**  
-- Navigation bar  
-- Hero section with headline & call-to-action  
-- Product / games showcase section  
-- Footer section  
-- Organized and readable code  
+- Navigation bar       
 
 ---
 
@@ -26,13 +22,6 @@ This project was created using **pure HTML and CSS**, focusing on modern layout 
 
 ## 🌐 Live Demo
 
-👉 **View Website:** _https://yourusername.github.io/agon/_  
-(Replace this with your actual deployed GitHub Pages link.)
+👉 **View Website:** _https://scaria-mathew.github.io/gaming-website/_  
 
 ---
-
-## 📸 Screenshots
-
-_Add your screenshots in a `/screenshots` folder and reference them like this:_
-
-# gaming-website
