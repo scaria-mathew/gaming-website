@@ -1,11 +1,11 @@
-# 🎮 Agon – Gaming Website (HTML & CSS)
+# Agon – Gaming Website (HTML & CSS)
 
 A clean and responsive website built for a fictional gaming brand **Agon**.  
 This project was created using **pure HTML and CSS**, focusing on modern layout design, clean structure, and simple UI components.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Fully responsive homepage  
 - Modern layout using **Flexbox / Grid**  
@@ -13,15 +13,15 @@ This project was created using **pure HTML and CSS**, focusing on modern layout 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **HTML5**  
 - **CSS3** (Flexbox, Grid, Responsiveness)
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-👉 **View Website:** _https://scaria-mathew.github.io/gaming-website/_  
+**View Website:** _https://scaria-mathew.github.io/gaming-website/_  
 
 ---
