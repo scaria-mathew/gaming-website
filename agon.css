@@ -1,0 +1,328 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    background-color: rgb(12, 12, 12); 
+    color: white;
+    font-family: "Montserrat",sans-serif;
+}
+
+.spacer{
+    height: 5vh;
+}
+.header{
+    border-bottom: 1px solid white;
+    background-color: black;
+}
+.navs{
+    display: flex; 
+    justify-content: space-between;
+    padding: 30px;
+}
+.nav-links{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.nav-links a{
+    margin-right: 15px; 
+    padding: 10px;
+    font-size: 20px; 
+    cursor: pointer; 
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links a:hover{
+    background-color: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.logo-div{
+    height: 100px;
+    width:100px;
+}
+
+.logo-img{
+    max-width: 100%;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.logo-img:hover{
+    box-shadow: 1px 1px 12px rgba(255,255,255,0.5);
+}
+
+.intro{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-bottom: 1px solid white; */
+    /* border: 1px solid white; */
+}
+
+.intro-div{
+    width: 1000px;
+    text-align: center; 
+    line-height: 50px;
+}
+
+.intro h2{
+    font-weight: 200;
+}
+
+.games{
+    background-color: rgb(8, 8, 8);  
+    height: 80vh;
+    padding: 50px 100px;
+}
+
+
+
+.games h1{
+    font-size: 50px;
+    letter-spacing: 25px;
+}
+
+.games-info{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.game-1-info{
+    margin-left: 25px;
+    width: 15em;
+    height: 30em;   
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;   
+    font-size: 20px;
+}
+
+.game-1{
+    width: 14.5em;
+}
+
+.game-1-img{
+    max-width: 100%;    
+}
+
+.game-2-info{
+    margin-left: 25px;
+    width: 15em;
+    height: 30em;   
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;   
+    font-size: 20px;
+}
+
+.game-2{
+    width: 14.5em;
+}
+
+.game-2-img{
+    max-width: 100%;    
+}
+
+.game-3-info{
+    margin-left: 25px;
+    width: 15em;
+    height: 30em;   
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;   
+    font-size: 20px;
+}
+
+.game-3{
+    width: 12em;
+}
+
+.game-3-img{
+    max-width: 100%;    
+}
+
+
+.game-4-info{
+    margin-left: 25px;
+    width: 15em;
+    height: 30em;   
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;   
+    font-size: 20px;
+}
+
+.game-4{
+    width: 16.3em;
+}
+
+.game-4-img{
+    max-width: 100%;    
+}
+
+.collab{
+    height: 50vh; 
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.collab-container{
+    position: absolute;
+    right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.fifa-div{
+    width: 35em;
+    margin-left: 30px;
+}
+
+.fifa-img{
+    max-width: 100%;
+    transition: 0.5s;
+    border-radius: 15px;
+}
+
+.fifa-img:hover{
+    transform: scale(1.03);
+}
+
+.collab p{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.collab span{
+    padding: 10px;
+    font-weight: 700;
+}
+
+.collab a{
+    position: absolute; 
+    bottom: 120px;
+    right: 750px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: 5px 5px rgb(78, 156, 234);
+}
+
+.collab a:hover{
+    box-shadow: 5px 5px rgb(34, 176, 15);
+}
+
+
+.projects{
+    height: 60vh;
+    position: relative;
+    padding: 10px;
+    background-color:rgb(8, 8, 8);
+}
+
+.projects h1{
+    margin-left: 50px;
+    font-size: 35px;
+}
+
+.shadows-div{
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    width: 32em;
+    box-shadow: 1px 1px 40px rgba(255, 20, 20, 0.368);
+
+}
+.shadows-img{
+    max-width: 100%;
+}
+
+.shadows-info{
+    position: absolute; 
+    top: 350px;
+    right: 525px;
+    font-size: 18px;
+}
+
+.newsletter{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgba(27, 27, 27, 0.269);
+}
+
+.nl-div{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.nl-div p{
+    font-size: 20px;
+}
+
+.input{
+    padding: 10px 100px 10px 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    outline: none;
+}
+
+.submit{
+    padding: 10px 20px; 
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: rgb(23, 23, 23);
+}
+
+footer{
+    background-color: black;
+    height: 15em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.f-img-div{
+    width: 10em;
+} 
+
+
+.f-img{
+    max-width: 100%;
+}
+
+footer p{
+    font-size: 12px;
+}
